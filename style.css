@@ -1,0 +1,33 @@
+body {
+  padding: 20% 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+
+.card {
+  max-width: 50vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.innerCard {
+  padding: 50px 30px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
