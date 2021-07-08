@@ -74,3 +74,25 @@ button:hover {
 .attribution {
   margin-top: 20%;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 5%;
+  }
+  .card {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "sedans"
+      "suv"
+      "luxury";
+  }
+  .sedans {
+    border-radius: 10px 10px 0 0;
+  }
+  .luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
