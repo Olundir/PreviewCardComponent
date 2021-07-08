@@ -2,7 +2,7 @@
 
 ## To see the live site follow the link below:
 
-link to be placed:
+https://olundir.github.io/PreviewCardComponent/
 
 ### Project done as part of the FrontEnd Mentor Challanges
 
